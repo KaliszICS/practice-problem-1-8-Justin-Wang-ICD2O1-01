@@ -26,9 +26,11 @@ def q3():
   
 def q4():
   #Write Assignment code here
-  num4= int(input("Input food: "))
-  num5= int(input("Input drink: "))
-  print(bool(f"Your food and drink is {num4} != “pizza” and {num5} != "pop"))
+  num4= (input("Input food: "))
+  num5= (input("Input drink: "))
+  bool3 = num4 != "pizza"
+  bool4 = num5 != "pop"
+  print("Your food and drink is:", bool3 and bool4)
 
 def q5():
   #Write Assignment code here
@@ -36,13 +38,13 @@ def q5():
   num7= int(num6)
   print(num7 % 2)
   bool8 = num7 % 2 == 0
-  print(f"The integer {num7} is {bool8}")
+  print(f"The integer {num7} is:", bool8)
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-#q1()
-#q2()
-#q3()
-#q4()
-#q5()
+q1()
+q2()
+q3()
+q4()
+q5()
