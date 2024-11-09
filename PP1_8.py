@@ -23,6 +23,7 @@ def q3():
   num2= input("Enter a number: ")
   num3= int(num2)
   print(bool(0 <= num3 <= 10))
+  
 def q4():
   #Write Assignment code here
   num4= input("Input food: ")
