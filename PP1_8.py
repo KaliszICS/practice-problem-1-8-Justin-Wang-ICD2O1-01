@@ -25,14 +25,14 @@ def q3():
   num3= int(num2)
   bool4 = num3 > 0
   bool5 = num3 < 10
-  print(f"Your number is {bool4 and bool5}")
+  print(f"Your number is {bool4} and {bool5}")
 def q4():
   #Write Assignment code here
   num4= input("Input food: ")
   num5= input("Input drink: ")
   bool6= num4 != "pizza"
   bool7= num5 != "pop"
-  print(f"Your food and drink is {bool6 and bool7}")
+  print(f"Your food and drink is {bool6} and {bool7}")
 
 def q5():
   #Write Assignment code here
