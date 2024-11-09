@@ -27,9 +27,7 @@ def q4():
   #Write Assignment code here
   num4= input("Input food: ")
   num5= input("Input drink: ")
-  bool6= num4 != "pizza"
-  bool7= num5 != "pop"
-  print(f"Your food and drink is {bool6} and {bool7}")
+  print(bool(f"Your food and drink is {num4} != “pizza” and {num5} != "pop"))
 
 def q5():
   #Write Assignment code here
