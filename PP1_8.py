@@ -15,7 +15,7 @@ def q1():
 
 def q2():
   #Write Assignment code here
-  num1 = input("Enter an integer: ")
+  num1 = int(input("Enter an integer: "))
   bool3 = num1 == 0
   print("Your integer is:", bool3)
 
