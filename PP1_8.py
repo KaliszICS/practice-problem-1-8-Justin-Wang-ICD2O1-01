@@ -15,33 +15,32 @@ def q1():
 
 def q2():
   #Write Assignment code here
-  num = input("Enter an integer: ")
-  bool = num == 0
-  print("Your integer is: ", bool)
+  num1 = input("Enter an integer: ")
+  bool3 = num1 == 0
+  print("Your integer is: ",bool3)
 
 def q3():
   #Write Assignment code here
-  num= input("Enter a number: ")
-  num= int(num)
-  bool = num > 0
-  bool = num < 10
-  print("Your number is: ",  num > 0 and num < 10)
-
+  num2= input("Enter a number: ")
+  num3= int(num2)
+  bool4 = num3 > 0
+  bool5 = num3 < 10
+  print("Your number is: ",bool4 and bool5)
 def q4():
   #Write Assignment code here
-  num= input("Input food: ")
-  num1= input("Input drink: ")
-  bool= num!="pizza"
-  bool1= num1!="pop"
-  print("Your food and drink is: ", bool and bool1)
+  num4= input("Input food: ")
+  num5= input("Input drink: ")
+  bool6= num4 != "pizza"
+  bool7= num5 != "pop"
+  print("Your food and drink is: ",bool6 and bool7)
 
 def q5():
   #Write Assignment code here
-  num= input("Enter an integer: ")
-  num= int(num)
-  print(num % 2)
-  bool = num % 2 ==0
-  print(f"The integer {num} is: ", bool)
+  num6= input("Enter an integer: ")
+  num7= int(num6)
+  print(num7 % 2)
+  bool8 = num7 % 2 ==0
+  print(f"The integer {num7} is: ",bool8)
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
