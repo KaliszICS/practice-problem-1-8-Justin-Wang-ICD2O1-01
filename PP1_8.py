@@ -11,7 +11,7 @@ def q1():
   bool1= 2 < 5
   bool2= 2 > 5
   print(bool1 and bool2)
-  print(bool1 or bool2)
+  print(bool1 or bool2）
 
 def q2():
   #Write Assignment code here
