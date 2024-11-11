@@ -20,7 +20,7 @@ def q2():
 
 def q3():
   #Write Assignment code here
-  num2= int(input("Enter a number: "))
+  num2= float(input("Enter a number: "))
   print(0 <= num2 and num2 <= 10)
   
 def q4():
