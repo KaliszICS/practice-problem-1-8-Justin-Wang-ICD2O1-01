@@ -21,13 +21,13 @@ def q2():
 def q3():
   #Write Assignment code here
   num2= int(input("Enter a number: "))
-  print(bool(0 <= num2 <= 10))
+  print(0 <= num2 and num2 <= 10)
   
 def q4():
   #Write Assignment code here
   num4= input("Input food: ")
   num5= input("Input drink: ")
-  print(bool(num4 != "pizza" and num5 != "pop"))
+  print(not(num4 == "pizza" and num5 == "pop"))
 
 def q5():
   #Write Assignment code here
