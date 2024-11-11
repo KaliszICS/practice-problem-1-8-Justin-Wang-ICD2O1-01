@@ -32,10 +32,9 @@ def q4():
 
 def q5():
   #Write Assignment code here
-  num6= input("Enter an integer: ")
-  num7= int(num6)
-  bool = (num7 % 2 == 0)
-  print(f"The integer {num7} is ",bool)
+  num6= int(input("Enter an integer: "))
+  bool = (num6 % 2 == 0)
+  print(f"The integer {num6} is {bool}")
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
