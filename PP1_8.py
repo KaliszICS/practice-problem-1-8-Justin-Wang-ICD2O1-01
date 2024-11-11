@@ -34,7 +34,8 @@ def q5():
   #Write Assignment code here
   num6= input("Enter an integer: ")
   num7= int(num6)
-  print(f"The integer {num7} is ",bool(num7 % 2 == 0))
+  bool = (num7 % 2 == 0)
+  print(f"The integer {num7} is ",bool)
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
