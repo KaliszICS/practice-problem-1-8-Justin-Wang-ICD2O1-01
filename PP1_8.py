@@ -20,9 +20,8 @@ def q2():
 
 def q3():
   #Write Assignment code here
-  num2= input("Enter a number: ")
-  num3= int(num2)
-  print(bool(0 <= num3 <= 10))
+  num2= int(input("Enter a number: "))
+  print(bool(0 <= num2 <= 10))
   
 def q4():
   #Write Assignment code here
